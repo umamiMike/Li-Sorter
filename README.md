@@ -16,4 +16,4 @@ Install Development Version
 Usage
 -----
 1. on a tab, click the icon.
-2. drag and drop all <li>'s in a <ul> or <ol>
+2. drag and drop all \<li\>'s in a \<ul\> or \<ol\>
