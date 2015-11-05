@@ -1,0 +1,21 @@
+{
+	"name": "Li-Sorter",
+	"version": "0.1",
+	"permissions": [
+	"activeTab"
+	],
+	"description": "sort li's in a list",
+
+	"background": {
+      "scripts": ["lib/jquery-2.0.3.min.js",  "lib/jquery-sortable.js", "background.js","contentScript.js"]
+    },
+
+	"browser_action": {
+		"name": "Click to get URL",
+    "default_icon": "icons/icon128.png",
+		"default_title": "Click Me"
+	},
+
+	"manifest_version" : 2
+
+}
