@@ -1,7 +1,7 @@
 Li-Sorter
 ============
 ### Author _Mike Chastain_   
-Chrome extension to sort <li> tags in a page.  Mostly this was a hello world exercise for me to scratch my own itch.
+Chrome extension to sort \<li\> tags in a page.  Mostly this was a hello world exercise for me to scratch my own itch.
 
 Technology Used
 ==============
