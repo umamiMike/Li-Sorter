@@ -7,7 +7,7 @@
 	"description": "sort li's in a list",
 
 	"background": {
-      "scripts": ["lib/jquery-2.0.3.min.js",  "lib/jquery-sortable.js", "background.js","contentScript.js"]
+      "scripts": ["lib/jquery-2.0.3.min.js",  "lib/jquery-sortable.js","contentScript.js", "background.js"]
     },
 
 	"browser_action": {
@@ -16,6 +16,12 @@
 		"default_title": "Click Me"
 	},
 
-	"manifest_version" : 2
+	"manifest_version" : 2,
+
+	"content_scripts": [ {
+		"js":["lib/jquery-2.0.3.min.js",  "lib/jquery-sortable.js"],
+		"css": ["sort.css"],
+		"matches": [ "http://*/*", "https://*/*"]
+		}]
 
 }
