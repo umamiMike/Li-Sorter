@@ -1,7 +1,11 @@
 Li-Sorter
 ============
 ### Author _Mike Chastain_   
-Chrome extension to sort <li> tags in a page.  An experiment in content_scripts et al.
+Chrome extension to sort \<li\> tags in a page.  Mostly this was a hello world exercise for me to scratch my own itch.
+
+Technology Used
+==============
+jQuery, jQuery-UI, Chrome extension tools.
 
 
 Install Development Version
